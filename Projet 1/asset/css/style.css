@@ -447,11 +447,13 @@ div .barre4 {
 	margin-left: 5%;
 	margin-top: 30px;
 	margin-bottom: 200px;
+  border: 3px solid black;
 }
 .coninformation {
 	margin-top: 30px;
   margin-left: 300px;
   margin-right: 300px;
+  margin-bottom: 100px;
 	border: 1px solid #54b59a;
 }
 .h1speciale {
@@ -481,7 +483,6 @@ h5{
 	margin-left: 2%;
 	margin-right: 2%;
   height: 50px;
-  opacity: 90%;
 }
 
 .conformulaire #prenom {
@@ -512,7 +513,6 @@ h5{
   height: 200px;
   max-width: 96%;
   min-width: 96%;
-  opacity: 90%;
 }
 
 .conformulaire #sujet {
@@ -530,48 +530,40 @@ h5{
 	background-color: #54b59a;
 	text-align: center;
 	font-size: 1.2em;
-	margin: 0 auto;
-  margin-left: 39%;
+  margin-left: 38%;
 	max-width: 50%;
 	padding: 10px 40px;
 	border: none;
+  margin-bottom: 50px;
 }
 .coninformation .info{
   color: #54b59a;
   font-weight: bolder;
   line-height: 60px;
 }
-
-.coninformation .info img:hover {
-
-}
-
-
-/* MES VACCINS */
-
- {
-  padding-top: 175px;
-}
-
-h2 {
+.coninformation .imagelogo img {
+  height: 50px;
+  width: 100px;
+  border-radius: 40px;
+  border: none;
+  border: 1px solid #54b59a;
   float: left;
-  font-size: 2em;
-  display: inline-block;
-  text-transform: uppercase;
+  margin-right: 20px;
+}
+.coninformation .found {
+  text-align: center;
+  font-size: 1.2em;
+}
+.coninformation .marc {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
 }
 
-.img1 {
-  width: 600px;
-  float: right;
-  padding-bottom: 100px;
-}
-
-.list1 {
-  float: left;
-  margin-top: 250px;
-}
-
-.list2 {
-  float: left;
-  margin-top: 250px;
+.coninformation .marc:hover {
+  transform: scale(5);
+  transition: 1s;
+  margin-bottom: 200px;
+  margin-top: 200px;
 }
