@@ -379,6 +379,11 @@ div .inscription input[type=number]{
   border-color: #54B59A;
   border-width: 1.5px;
 }
+
+div .inscription input[type=number]:hover {
+  border: 3px solid #16a88b;
+}
+
 div .inscription input[type=submit]:hover{
 
 	transition-duration: 1s;
@@ -431,3 +436,5 @@ div .barre4 {
 #inscription {
 	margin-bottom: 200px;
 }
+
+LA MERE DE MATHIS LA REINE DES ABEILLES 
