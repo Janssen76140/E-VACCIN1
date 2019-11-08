@@ -546,25 +546,30 @@ h5{
 
 }
 
-h2 {
+h6 {
   float: left;
   margin-top: 175px;
   font-size: 2em;
   display: inline-block;
   text-transform: uppercase;
 }
- .img1 {
+
+.img1 {
    width: 600px;
    float: right;
    padding-bottom: 100px;
  }
 
- .list1 {
+.list1 {
    float: left;
    margin-top: 250px;
  }
 
- .list2 {
+.list2 {
    float: left;
    margin-top: 250px;
+ }
+
+.list {
+   margin-right: 250px;
  }
