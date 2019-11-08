@@ -221,9 +221,10 @@ footer .logofooter img {
   float: left;
 }
 
+
 footer nav ul li  {
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 footer nav ul li a {
