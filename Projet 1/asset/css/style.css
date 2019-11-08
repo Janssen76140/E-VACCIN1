@@ -545,14 +545,15 @@ h5{
   line-height: 60px;
 }
 .coninformation .imagelogo img {
-  height: 50px;
-  width: 100px;
+  height: 25px;
+  width: 50px;
   border-radius: 40px;
   border: none;
   border: 1px solid #54b59a;
   float: left;
   margin-right: 20px;
   margin-left: 15px;
+  margin-top: 16px;
 }
 .coninformation .found {
   text-align: center;
@@ -566,10 +567,10 @@ h5{
 }
 
 .coninformation .marc:hover {
-  transform: scale(4);
-  transition: 1s;
-  margin-bottom: 150px;
-  margin-top: 150px;
+  transform: scale(3.5);
+  transition: 0.5s;
+  margin-bottom: 125px;
+  margin-top: 125px;
 }
 
 .img1 {
