@@ -559,7 +559,7 @@ h5{
   font-size: 1.2em;
 }
 .coninformation .marc {
-  width: 100px;
+  width: 120px;
   height: 100px;
   display: block;
   margin: 0 auto;
@@ -568,8 +568,8 @@ h5{
 .coninformation .marc:hover {
   transform: scale(4);
   transition: 1s;
-  margin-bottom: 00px;
-  margin-top: 200px;
+  margin-bottom: 150px;
+  margin-top: 150px;
 }
 
 .img1 {
