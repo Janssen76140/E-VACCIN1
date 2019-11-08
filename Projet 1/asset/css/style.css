@@ -455,7 +455,6 @@ div .barre4 {
 	width: 30%;
 	border: 1px solid #54b59a;
 	margin-right: 5%;
-	padding-bottom: 446px;
 }
 .h1speciale {
 	text-align: center;
@@ -529,7 +528,10 @@ h5{
   line-height: 60px;
 }
 .coninformation .info img{
-  float: right;
-  height: 70%;
-  width: 70%;
+  float: left;
+  height: 30%;
+  width: 30%;
+}
+.coninformation .info img:hover {
+
 }
