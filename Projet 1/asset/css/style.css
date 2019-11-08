@@ -443,7 +443,7 @@ div .barre4 {
 
 .conformulaire {
 	float: left;
-	width: 50%;
+	width: 55%;
 	border: 1px solid #54b59a;
 	margin-left: 5%;
 	margin-top: 30px;
@@ -462,6 +462,7 @@ div .barre4 {
 	margin: 100px 0;
 	font-size: 2.5em;
   padding-top: 120px;
+  text-transform: uppercase;
 }
 h5{
 	text-align: center;
@@ -484,28 +485,32 @@ h5{
 	margin-right: 2%;
 }
 
+
+
 .conformulaire #email{
 	margin-top: 60px;
 	float: left;
 	margin-bottom: 30px;
 }
+
 .conformulaire #nom {
 	margin-bottom: 30px;
 	margin-top: 60px;
 	float: right;
 }
+
 .conformulaire textarea{
-	border: 1px solid #54b59a;
 	background-color: #54b59a;
 	width: 50%;
-	margin-left: 25%;
+  margin-left: 15px;
 	border-radius: 3px;
-	border: none;
 	margin-top: 30px;
-	max-width: 50%;
-	max-height: 2000px;
-	min-width: 50%;
+  border: none;
+  width: 750px;
+  height: 200px;
+  max-width: 750px;;
 }
+
 .conformulaire #sujet {
 	width: 96%;
 }
