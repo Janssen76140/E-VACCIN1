@@ -149,13 +149,10 @@ header nav ul li {
 }
 
 .securite h3 {
-  margin-right: 10px;
-}
-.simple p {
-  margin-top: 45px;
+  margin-right: 40px;
 }
 
-.util p, .securite p {
+.simple p, .util p, .securite p {
   margin-top: 25px;
 }
 
@@ -171,6 +168,7 @@ header nav ul li {
   text-transform: uppercase;
   padding-top: 60px;
 }
+
 
 .barre3 {
   width: 200px;
@@ -208,47 +206,47 @@ header nav ul li {
   color: white;
 }
 
-#qui p a {
-  color: #585858;
-}
-
-#qui p a:hover {
-  color: #1b1b1b;
-}
-
-
 footer {
   background-color: #54b59a;
 }
 
-footer img {
-  width: 150px;
-  height: 150px;
+footer .footer {
+  float: left;
+  width: 32.8%;
+}
+
+footer .logofooter img {
+  width: 120px;
+  height: 120px;
   float: left;
 }
 
-footer p {
-  text-align: center;
-  color: white;
-}
-
-footer nav ul li {
-  float: left;
-  margin-right: 50px;
-}
-
-footer nav {
-  margin-left: 300px;
-  padding-top: 80px;
+footer nav ul li  {
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 footer nav ul li a {
-  color: white;
+  color: #fff;
 }
 
 footer nav ul li a:hover {
-  color: #7c869e;
+  color: grey;
 }
+
+footer .reseaufooter img {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+footer .barrefooter {
+  width: 100%;
+  height: 10px;
+  color: white;
+}
+
 
 
 
@@ -393,12 +391,15 @@ div .inscription input[type=submit]:hover{
 	background-position: right;
 
 }
+
 div .inscription input[type=text]:hover{
 	border: 3px solid #16a88b;
 }
+
 div .inscription input[type=password]:hover{
 	border: 3px solid #16a88b;
 }
+
 div .barre3 {
 	background-color: #16a88b;
 	height: 2px;
@@ -408,7 +409,6 @@ div .barre3 {
 	margin-bottom: 60px;
 
 }
-
 
 div .connexion {
 	float: left;
@@ -426,7 +426,7 @@ div .inscription  {
 div .barre4 {
 	background-color: #16a88b;
 	height: 675px;
-	width: 2px;
+	width: 3px;
 	margin-left: 10%;
 	margin-top: 70px;
 	float: left;
@@ -530,11 +530,13 @@ h5{
 	background-color: #54b59a;
 	text-align: center;
 	font-size: 1.2em;
-  margin-left: 38%;
+  display: block;
+  margin: 0 auto;
 	max-width: 50%;
 	padding: 10px 40px;
 	border: none;
   margin-bottom: 50px;
+  margin-top: 10px;
 }
 .coninformation .info{
   color: #54b59a;
@@ -549,17 +551,19 @@ h5{
   border: 1px solid #54b59a;
   float: left;
   margin-right: 20px;
+  margin-left: 15px;
 }
 .coninformation .found {
   text-align: center;
   font-size: 1.2em;
 }
 .coninformation .marc {
-  width: 100px;
+  width: 120px;
   height: 100px;
   display: block;
   margin: 0 auto;
 }
+
 
 /* MES VACCINS */
 
@@ -570,6 +574,10 @@ h5{
 h6 {
   font-size: 2em;
   text-transform: uppercase;
+
+  transition: 1s;
+  margin-bottom: 150px;
+  margin-top: 150px;
 }
 
 .list {
