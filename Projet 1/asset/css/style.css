@@ -523,8 +523,13 @@ h5{
 	padding: 10px 40px;
 	border: none;
 }
-.info input:hover {
-	padding-bottom: 400px;
-  transition: 1s;
-  
+.coninformation .info{
+  color: #54b59a;
+  font-weight: bolder;
+  line-height: 60px;
+}
+.coninformation .info img{
+  float: right;
+  height: 70%;
+  width: 70%;
 }
