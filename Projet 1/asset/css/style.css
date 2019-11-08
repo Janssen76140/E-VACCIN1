@@ -382,7 +382,7 @@ div .inscription input[type=number]{
 div .inscription input[type=submit]:hover{
 
 	transition-duration: 1s;
-	background-image: url(../img/bandetextee-vaccin.png);
+	background-image: url(../images/bandetextee-vaccin.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: right;
@@ -431,7 +431,3 @@ div .barre4 {
 #inscription {
 	margin-bottom: 200px;
 }
-
-/* C bOOON */
-
-/* Ta mere la reine des putes */
