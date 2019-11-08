@@ -524,6 +524,7 @@ h5{
 	border: none;
 }
 .info input:hover {
-	padding-bottom: 200px;
+	padding-bottom: 400px;
   transition: 1s;
+  
 }
