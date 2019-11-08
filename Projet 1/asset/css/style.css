@@ -396,7 +396,7 @@ div .inscription input[type=number]:hover {
 
 div .inscription input[type=submit]:hover{
 
-  transition-duration: 1s;
+  transition-duration: .5s;
 	background-image: url(../images/bandetextee-vaccin.png);
 	background-size: contain;
 	background-repeat: no-repeat;
