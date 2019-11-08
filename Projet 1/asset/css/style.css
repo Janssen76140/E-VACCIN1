@@ -244,10 +244,14 @@ footer .reseaufooter img {
 footer .barrefooter {
   height: 2px;
   background-color: white;
-  margin: 50px 0px;
+  margin: 40px 0px 20px 0;
 }
 
-
+footer .mentionfooter {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 20px;
+}
 
 
 
