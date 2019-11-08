@@ -559,5 +559,11 @@ h5{
   height: 100px;
   display: block;
   margin: 0 auto;
-  
+}
+
+.coninformation .marc:hover {
+  transform: scale(5);
+  transition: 1s;
+  margin-bottom: 200px;
+  margin-top: 200px;
 }
