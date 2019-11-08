@@ -1,0 +1,433 @@
+@import "reset.css";
+
+.wrap {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  color: #black;
+}
+
+header .menufixed {
+  position: fixed;
+  background-color: #54b59a;
+  width: 100%;
+  z-index: 3;
+}
+
+header img {
+  float: left;
+  width: 120px;
+  height: 120px;
+}
+
+header nav ul li a {
+  font-size: 1.3em;
+  color: #fff;
+}
+
+header nav ul li a:hover {
+  color: #7c869e;
+}
+
+header nav ul li {
+  float: right;
+  padding-right: 40px;
+  padding-top: 45px;
+}
+
+#vquoi {
+  background-image: url("../images/imgbackv.png");
+  background-color: #54b59a;
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 120px;
+  color: white;
+}
+
+#vquoi h2 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  padding-top: 70px;
+}
+
+.barre {
+  width: 200px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 50px 162.5px;
+}
+
+#vquoi p {
+  font-size: 1.8em;
+  line-height: 50px;
+}
+
+#vquoi a {
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+
+#vquoi a:hover {
+  color:  #032e22;
+}
+
+#vquoi button {
+  float: left;
+  height: 70px;
+  width: 180px;
+  border-radius: 5px;
+  border-color: #54b59a;
+  border-width: 3px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+
+#vquoi button a {
+  color: #54b59a;
+}
+
+#pourquoi {
+  background-color: white;
+  color: black;
+}
+
+#pourquoi h2 {
+  text-align: center;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+.ex img {
+  margin-top: 50px;
+}
+
+.util img {
+  padding-bottom: 20px;
+}
+
+.securite img, .util img, .simple img {
+  width: 200px;
+  height: 200px;
+}
+
+.ex {
+  float: left;
+  width: 33.33333333333333333333%;
+  padding: 50px 40px 40px 110px;
+}
+
+.ex h3 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.barre2 {
+  width: 200px;
+  height: 3px;
+  background-color: #54b59a;
+  border-radius: 5px;
+  margin: 50px 500px;
+}
+
+.simple h3 {
+  margin-right: 10px;
+}
+
+.util h3 {
+  margin-right: 40px;
+}
+
+.securite h3 {
+  margin-right: 10px;
+}
+.simple p {
+  margin-top: 45px;
+}
+
+.util p, .securite p {
+  margin-top: 25px;
+}
+
+#qui {
+  background-color: #fff;
+  color: black;
+  height: 800px;
+}
+
+#qui h2 {
+  text-align: center;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  padding-top: 60px;
+}
+
+.barre3 {
+  width: 200px;
+  height: 3px;
+  background-color: #54b59a;
+  border-radius: 5px;
+  margin-left: 612.5px;
+  margin-top: 50px;
+}
+
+.perso {
+  float: left;
+  margin-left: 30px;
+  margin-top: 500px;
+}
+
+.bulleperso {
+  float: right;
+  width: 1000px;
+  height: 500px;
+  margin-right: 279px;
+  margin-top: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+#qui p {
+  position: absolute;
+  z-index: 2;
+  top: 1800px;
+  left: 260px;
+  right: 440px;
+  font-family: 'Montserrat', cursive;
+  font-size: 1.8em;
+  color: white;
+}
+
+#qui p a {
+  color: #585858;
+}
+
+#qui p a:hover {
+  color: #1b1b1b;
+}
+
+
+footer {
+  background-color: #54b59a;
+}
+
+footer img {
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}
+
+footer nav ul li {
+  float: left;
+  margin-right: 50px;
+}
+
+footer nav {
+  margin-left: 300px;
+  padding-top: 80px;
+}
+
+footer nav ul li a {
+  color: white;
+}
+
+footer nav ul li a:hover {
+  color: #7c869e;
+}
+
+
+
+
+/* CONNEXION */
+
+
+
+
+#pageconnexion {
+font-family:"Montserrat";
+background-color: white;
+}
+
+#con {
+  text-align: center;
+	margin-top: 30px;
+}
+
+div .connexion input[type=text]{
+  width: 100%;
+  padding: 14px 20px;
+  margin: 7px 0 20px 0;
+  border: 1px solid #54b59a;
+  border-radius: 4px;
+  opacity: 80%;
+  border-color: #54B59A;
+  border-width: 1.5px;
+}
+div .connexion input[type=password]{
+  width: 100%;
+  padding: 14px 20px;
+  margin: 7px 0 20px 0;
+  border: 1px solid #54b59a;
+  border-radius: 4px;
+  opacity: 80%;
+  border-color: #54B59A;
+  border-width: 1.5px;
+}
+
+div .connexion input[type=submit]{
+  width: 50%;
+  color: white;
+  padding: 14px 20px;
+	margin-left: 25%;
+  border: none;
+  border-radius: 4px;
+	margin-bottom: 100px;
+	text-align: center;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  margin-top: 60px;
+  border-color: #54B59A;
+  border-width: 1.5px;
+  background-color: #54B59A;
+}
+
+div .connexion input[type=number]{
+	width: 100%;
+  padding: 12px 20px;
+  margin: 7px 0 20px 0;
+  border: 1px solid #54b59a;
+  border-radius: 4px;
+  opacity: 80%;
+  border-color: #54B59A;
+  border-width: 1.5px;
+}
+div .connexion input[type=submit]:hover{
+
+	transition-duration: 1s;
+	background-image: url(../images/bandetextee-vaccin.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+
+}
+div .connexion input[type=text]:hover{
+	border: 3px solid #16a88b;
+}
+div .connexion input[type=password]:hover{
+	border: 3px solid #16a88b;
+}
+div .inscription input[type=text]{
+  width: 100%;
+  padding: 14px 20px;
+  margin: 7px 0 20px 0;
+  border: 1px solid #54b59a;
+  border-radius: 4px;
+  opacity: 80%;
+  border-color: #54B59A;
+  border-width: 1.5px;
+}
+div .inscription input[type=password]{
+  width: 100%;
+  padding: 14px 20px;
+  margin: 7px 0 20px 0;
+  border: 1px solid #54b59a;
+  border-radius: 4px;
+  opacity: 80%;
+  border-color: #54B59A;
+  border-width: 1.5px;
+}
+
+div .inscription input[type=submit]{
+  width: 50%;
+  color: white;
+  padding: 14px 20px;
+	margin-left: 25%;
+  border: none;
+  border-radius: 4px;
+	margin-bottom: 100px;
+	text-align: center;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  margin-top: 60px;
+  border-color: #54B59A;
+  border-width: 1.5px;
+  background-color: #54B59A;
+}
+
+div .inscription input[type=number]{
+	width: 100%;
+  padding: 12px 20px;
+  margin: 7px 0 20px 0;
+  border: 1px solid #54b59a;
+  border-radius: 4px;
+  opacity: 80%;
+  border-color: #54B59A;
+  border-width: 1.5px;
+}
+div .inscription input[type=submit]:hover{
+
+	transition-duration: 1s;
+	background-image: url(../img/bandetextee-vaccin.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+
+}
+div .inscription input[type=text]:hover{
+	border: 3px solid #16a88b;
+}
+div .inscription input[type=password]:hover{
+	border: 3px solid #16a88b;
+}
+div .barre3 {
+	background-color: #16a88b;
+	height: 2px;
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+
+}
+
+
+div .connexion {
+	float: left;
+	width: 40%;
+}
+
+div .inscription  {
+	float: right;
+	width: 40%;
+}
+.connexion p , .inscription p {
+	text-align: center;
+	margin-bottom: 40px;
+}
+div .barre4 {
+	background-color: #16a88b;
+	height: 675px;
+	width: 2px;
+	margin-left: 10%;
+	margin-top: 70px;
+	float: left;
+
+}
+
+#inscription {
+	margin-bottom: 200px;
+}
