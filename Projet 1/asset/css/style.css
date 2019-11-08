@@ -495,7 +495,6 @@ div .barre4 {
 	margin-left: 5%;
 	margin-top: 30px;
 	margin-bottom: 200px;
-  border: 3px solid black;
 }
 
 .coninformation {
@@ -724,6 +723,7 @@ h6 {
   float: left;
   width: 25%;
   margin-top: 50px;
+  font-size: 1.4em;
 }
 
 .img1 {
