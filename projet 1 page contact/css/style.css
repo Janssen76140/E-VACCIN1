@@ -147,6 +147,7 @@ h2{
 	padding: 10px 0;
 	border: none
 }
-.Confirmation .info :hover{
-	background-color: red;
+.info input:hover {
+	padding-right: 40px;
+	padding-bottom: 200px;
 }
