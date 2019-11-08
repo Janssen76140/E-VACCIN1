@@ -391,12 +391,15 @@ div .inscription input[type=submit]:hover{
 	background-position: right;
 
 }
+
 div .inscription input[type=text]:hover{
 	border: 3px solid #16a88b;
 }
+
 div .inscription input[type=password]:hover{
 	border: 3px solid #16a88b;
 }
+
 div .barre3 {
 	background-color: #16a88b;
 	height: 2px;
@@ -406,7 +409,6 @@ div .barre3 {
 	margin-bottom: 60px;
 
 }
-
 
 div .connexion {
 	float: left;
@@ -435,9 +437,40 @@ div .barre4 {
 	margin-bottom: 200px;
 }
 
-<<<<<<< HEAD
-LA MERE DE MATHIS LA REINE DES ABEILLES
-=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* CONTACT */
 
@@ -565,35 +598,111 @@ h5{
   margin: 0 auto;
 }
 
-.coninformation .marc:hover {
-  transform: scale(4);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MES VACCINS */
+
+#section1 {
+  margin-top: 155px;
+}
+
+h6 {
+  font-size: 2em;
+  text-transform: uppercase;
+
   transition: 1s;
   margin-bottom: 150px;
   margin-top: 150px;
 }
 
-.img1 {
-   width: 600px;
-   float: right;
-   padding-bottom: 100px;
- }
-
-.list1 {
-   float: left;
-   margin-top: 250px;
- }
-
-.list2 {
-   float: left;
-   margin-top: 250px;
- }
-
 .list {
-   margin-right: 250px;
- }
-<<<<<<< HEAD
->>>>>>> db42eb372244c28014461cd44f1e33c2add0aed8
-=======
+  float: left;
+  width: 25%;
+  margin-top: 50px;
+}
 
-h
->>>>>>> e82da75345de45799c90b5a6415c335ec797275e
+.img1 {
+  width: 600px;
+  float: right;
+}
