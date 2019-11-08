@@ -712,10 +712,6 @@ h5{
 h6 {
   font-size: 2em;
   text-transform: uppercase;
-
-  transition: 1s;
-  margin-bottom: 150px;
-  margin-top: 150px;
 }
 
 .list {
