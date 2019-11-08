@@ -561,32 +561,24 @@ h5{
   margin: 0 auto;
 }
 
+/* MES VACCINS */
+
+#section1 {
+  margin-top: 155px;
+}
+
 h6 {
-  float: left;
-  margin-top: 175px;
   font-size: 2em;
-  display: inline-block;
   text-transform: uppercase;
 }
 
-.img1 {
-   width: 600px;
-   float: right;
-   padding-bottom: 100px;
- }
-
-.list1 {
-   float: left;
-   margin-top: 250px;
- }
-
-.list2 {
-   float: left;
-   margin-top: 250px;
- }
-
 .list {
-   margin-right: 250px;
- }
+  float: left;
+  width: 25%;
+  margin-top: 50px;
+}
 
-h
+.img1 {
+  width: 600px;
+  float: right;
+}
