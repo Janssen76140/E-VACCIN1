@@ -277,6 +277,7 @@ div .connexion input[type=text]{
   border-color: #54B59A;
   border-width: 1.5px;
 }
+
 div .connexion input[type=password]{
   width: 100%;
   padding: 14px 20px;
@@ -315,6 +316,7 @@ div .connexion input[type=number]{
   border-color: #54B59A;
   border-width: 1.5px;
 }
+
 div .connexion input[type=submit]:hover{
 
 	transition-duration: 1s;
@@ -324,12 +326,15 @@ div .connexion input[type=submit]:hover{
 	background-position: right;
 
 }
+
 div .connexion input[type=text]:hover{
 	border: 3px solid #16a88b;
 }
+
 div .connexion input[type=password]:hover{
 	border: 3px solid #16a88b;
 }
+
 div .inscription input[type=text]{
   width: 100%;
   padding: 14px 20px;
@@ -385,7 +390,7 @@ div .inscription input[type=number]:hover {
 
 div .inscription input[type=submit]:hover{
 
-	transition-duration: 1s;
+  transition-duration: 1s;
 	background-image: url(../images/bandetextee-vaccin.png);
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -420,10 +425,12 @@ div .inscription  {
 	float: right;
 	width: 40%;
 }
+
 .connexion p , .inscription p {
 	text-align: center;
 	margin-bottom: 40px;
 }
+
 div .barre4 {
 	background-color: #16a88b;
 	height: 675px;
