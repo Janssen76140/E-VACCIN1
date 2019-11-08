@@ -508,7 +508,7 @@ div .barre4 {
 
 .h1speciale {
 	text-align: center;
-	margin: 100px 0 50px 0;
+	margin: 100px 0;
 	font-size: 2.5em;
   padding-top: 120px;
   text-transform: uppercase;
@@ -617,12 +617,20 @@ h5{
   font-size: 1.2em;
 }
 
-.coninformation .marc {
+.coninformation .marc{
   width: 120px;
   height: 100px;
   display: block;
   margin: 0 auto;
 }
+.coninformation .marc:hover{
+  transform: scale(3.5);
+  transition: 0.5s;
+  margin-top: 125px;
+  margin-bottom: 125px;
+}
+
+
 
 
 
