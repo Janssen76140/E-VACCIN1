@@ -242,9 +242,9 @@ footer .reseaufooter img {
 }
 
 footer .barrefooter {
-  width: 100%;
-  height: 10px;
-  color: white;
+  height: 2px;
+  background-color: white;
+  margin: 50px 0px;
 }
 
 
