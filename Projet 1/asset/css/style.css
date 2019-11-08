@@ -447,13 +447,11 @@ div .barre4 {
 	margin-left: 5%;
 	margin-top: 30px;
 	margin-bottom: 200px;
-  border: 3px solid black;
 }
 .coninformation {
 	margin-top: 30px;
   margin-left: 300px;
   margin-right: 300px;
-
 	border: 1px solid #54b59a;
 }
 .h1speciale {
@@ -483,6 +481,7 @@ h5{
 	margin-left: 2%;
 	margin-right: 2%;
   height: 50px;
+  opacity: 90%;
 }
 
 .conformulaire #prenom {
@@ -513,6 +512,7 @@ h5{
   height: 200px;
   max-width: 96%;
   min-width: 96%;
+  opacity: 90%;
 }
 
 .conformulaire #sujet {
