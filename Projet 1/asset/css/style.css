@@ -490,6 +490,7 @@ div .barre4 {
 	margin-bottom: 200px;
   border: 3px solid black;
 }
+
 .coninformation {
 	margin-top: 30px;
   margin-left: 300px;
@@ -497,6 +498,7 @@ div .barre4 {
   margin-bottom: 100px;
 	border: 1px solid #54b59a;
 }
+
 .h1speciale {
 	text-align: center;
 	margin: 100px 0;
@@ -504,17 +506,20 @@ div .barre4 {
   padding-top: 120px;
   text-transform: uppercase;
 }
+
 h5{
 	text-align: center;
 	margin: 60px 0;
 	font-size: 1.5em;
 }
+
 .bar {
 	width: 10%;
 	height: 3px;
 	margin: 0 auto;
 	background-color: #54b59a;
 }
+
 .conformulaire input{
 	width: 45%;
 	padding: 12px 30px;
@@ -561,12 +566,14 @@ h5{
   margin-top: 30px;
   margin-left: 26px;
 }
+
 .conformulaire #boutonenvoyer {
 	margin-left: 40%;
 	margin-bottom: 60px;
 	margin-top: 60px;
   width: 20%;
 }
+
 .coninformation .info input{
 	background-color: #54b59a;
 	text-align: center;
@@ -579,11 +586,13 @@ h5{
   margin-bottom: 50px;
   margin-top: 10px;
 }
+
 .coninformation .info{
   color: #54b59a;
   font-weight: bolder;
   line-height: 60px;
 }
+
 .coninformation .imagelogo img {
   height: 50px;
   width: 100px;
@@ -594,16 +603,20 @@ h5{
   margin-right: 20px;
   margin-left: 15px;
 }
+
 .coninformation .found {
   text-align: center;
   font-size: 1.2em;
 }
+
 .coninformation .marc {
   width: 120px;
   height: 100px;
   display: block;
   margin: 0 auto;
 }
+
+
 
 
 
