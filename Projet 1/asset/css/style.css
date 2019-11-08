@@ -453,7 +453,7 @@ div .barre4 {
 	margin-top: 30px;
   margin-left: 300px;
   margin-right: 300px;
-
+  margin-bottom: 100px;
 	border: 1px solid #54b59a;
 }
 .h1speciale {
@@ -530,20 +530,35 @@ h5{
 	background-color: #54b59a;
 	text-align: center;
 	font-size: 1.2em;
-	margin: 0 auto;
-  margin-left: 39%;
+  margin-left: 38%;
 	max-width: 50%;
 	padding: 10px 40px;
 	border: none;
+  margin-bottom: 50px;
 }
 .coninformation .info{
   color: #54b59a;
   font-weight: bolder;
   line-height: 60px;
 }
-
-.coninformation .info img:hover {
-
+.coninformation .imagelogo img {
+  height: 50px;
+  width: 100px;
+  border-radius: 40px;
+  border: none;
+  border: 1px solid #54b59a;
+  float: left;
+  margin-right: 20px;
+}
+.coninformation .found {
+  text-align: center;
+  font-size: 1.2em;
+}
+.coninformation .marc {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
 }
 
 h6 {
