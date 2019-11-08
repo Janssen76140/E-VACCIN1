@@ -540,13 +540,7 @@ h5{
   font-weight: bolder;
   line-height: 60px;
 }
-.coninformation .info img{
-  float: right;
-  height: 20%;
-  width: 20%;
-  margin-top: -150px;
-  margin-bottom: 200px;
-}
+
 .coninformation .info img:hover {
 
 }
