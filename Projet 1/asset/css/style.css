@@ -443,25 +443,25 @@ div .barre4 {
 
 .conformulaire {
 	float: left;
-	width: 50%;
-	border: 1px solid #54b59a;
+	width: 90%;
 	margin-left: 5%;
 	margin-top: 30px;
 	margin-bottom: 200px;
+  border: 3px solid black;
 }
 .coninformation {
 	margin-top: 30px;
-	float: right;
-	width: 30%;
+  margin-left: 300px;
+  margin-right: 300px;
+
 	border: 1px solid #54b59a;
-	margin-right: 5%;
-	padding-bottom: 446px;
 }
 .h1speciale {
 	text-align: center;
 	margin: 100px 0;
 	font-size: 2.5em;
   padding-top: 120px;
+  text-transform: uppercase;
 }
 h5{
 	text-align: center;
@@ -478,10 +478,16 @@ h5{
 	width: 45%;
 	padding: 12px 30px;
 	border-radius: 3px;
-	border: 1px solid #54b59a;
+  border: none;
 	background-color: #54b59a;
 	margin-left: 2%;
 	margin-right: 2%;
+  height: 50px;
+}
+
+.conformulaire #prenom {
+  margin-top: 60px;
+  float: left;
 }
 
 .conformulaire #email{
@@ -489,36 +495,43 @@ h5{
 	float: left;
 	margin-bottom: 30px;
 }
+
 .conformulaire #nom {
 	margin-bottom: 30px;
 	margin-top: 60px;
 	float: right;
 }
+
 .conformulaire textarea{
-	border: 1px solid #54b59a;
 	background-color: #54b59a;
 	width: 50%;
-	margin-left: 25%;
+  margin-left: 25px;
 	border-radius: 3px;
-	border: none;
 	margin-top: 30px;
-	max-width: 50%;
-	max-height: 2000px;
-	min-width: 50%;
+  border: none;
+  width: 80%;
+  height: 200px;
+  max-width: 96%;
+  min-width: 96%;
 }
+
 .conformulaire #sujet {
-	width: 96%;
+	float: right;
+  margin-top: 30px;
+  margin-left: 26px;
 }
-.conformulaire #submit {
-	margin-left: 27.5%;
+.conformulaire #boutonenvoyer {
+	margin-left: 40%;
 	margin-bottom: 60px;
-	margin-top: 30px;
+	margin-top: 60px;
+  width: 20%;
 }
 .coninformation .info input{
 	background-color: #54b59a;
 	text-align: center;
 	font-size: 1.2em;
-	margin-left: 25%;
+	margin: 0 auto;
+  margin-left: 39%;
 	max-width: 50%;
 	padding: 10px 40px;
 	border: none;
@@ -528,10 +541,9 @@ h5{
   font-weight: bolder;
   line-height: 60px;
 }
-.coninformation .info img{
-  float: right;
-  height: 70%;
-  width: 70%;
+
+.coninformation .info img:hover {
+
 }
 
 h2 {
