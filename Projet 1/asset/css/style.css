@@ -518,12 +518,18 @@ h5{
 	background-color: #54b59a;
 	text-align: center;
 	font-size: 1.2em;
-	margin: 0 auto;
+	margin-left: 25%;
 	max-width: 50%;
 	padding: 10px 40px;
 	border: none;
 }
-.info input:hover {
-	padding-right: 40px;
-	padding-bottom: 200px;
+.coninformation .info{
+  color: #54b59a;
+  font-weight: bolder;
+  line-height: 60px;
+}
+.coninformation .info img{
+  float: right;
+  height: 70%;
+  width: 70%;
 }
