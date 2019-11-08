@@ -443,8 +443,7 @@ div .barre4 {
 
 .conformulaire {
 	float: left;
-	width: 55%;
-	border: 1px solid #54b59a;
+	width: 90%;
 	margin-left: 5%;
 	margin-top: 30px;
 	margin-bottom: 200px;
@@ -452,7 +451,6 @@ div .barre4 {
 .coninformation {
 	margin-top: 30px;
 	float: right;
-	width: 30%;
 	border: 1px solid #54b59a;
 	margin-right: 5%;
 }
@@ -478,7 +476,7 @@ h5{
 	width: 45%;
 	padding: 12px 30px;
 	border-radius: 3px;
-	border: 1px solid #54b59a;
+  border: none;
 	background-color: #54b59a;
 	margin-left: 2%;
 	margin-right: 2%;
