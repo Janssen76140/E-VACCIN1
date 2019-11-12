@@ -731,6 +731,15 @@ h6 {
   font-size: 1.4em;
 }
 
+#section1 ul li {
+  border: medium solid #000000;
+  padding: 10px;
+}
+
+.grandmot {
+  margin-left: 150px;
+}
+
 .img1 {
   width: 600px;
   float: right;
