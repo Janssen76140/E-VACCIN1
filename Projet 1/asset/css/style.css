@@ -729,6 +729,15 @@ h5{
 h6 {
   font-size: 2em;
   text-transform: uppercase;
+  text-align: center;
+}
+
+.bar2 {
+  width: 10%;
+	height: 3px;
+	background-color: #54b59a;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 .list {
@@ -739,15 +748,87 @@ h6 {
 }
 
 #section1 ul li {
-  border: medium solid #000000;
   padding: 10px;
 }
 
-.grandmot {
-  margin-left: 150px;
+.img1 {
+  width: 500px;
+  float: right;
+  margin-right: 100px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.tableau {
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 30px;
+  border: solid 3px;
+}
+
+.column {
+  width: 33.3333333333333333333%;
+  text-align: center;
+  margin-top: 15px;
+  border: solid 3px;
+  border-color: #54b59a;
+}
+
+.column td {
+  padding-top: 15px;
+  border: solid 3px;
+  padding-bottom: 15px;
+  border-color: #54b59a;
+}
+
+.linetitle th {
+  padding-bottom: 15px;
+  border: solid 3px;
+  padding-top: 15px;
+  border-color: #54b59a;
+}
+
+.img {
+  margin: 0 auto;
+  width: 20%;
+  margin-top: 15px;
+  margin-bottom: 50px;
 }
 
 .img1 {
-  width: 600px;
-  float: right;
+  width: 50%;
+  display: inline-block;
 }
+
+.img1 p {
+  display: inline-block;
+}
+
+.img2 p {
+  display: inline-block;
+}
+
+.img2 {
+  width: 50%;
+}
+
+.imgrouge {
+  float: left;
+  margin-right: 10px;
+}
+
+.imgbleue {
+  float: left;
+  margin-right: 10px;
+}
+
+#section2 a {
+  float: right;
+  
+}
+
+
+
+
+
+/* FIN MES VACCINS */
