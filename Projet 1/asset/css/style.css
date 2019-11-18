@@ -900,3 +900,89 @@ h6 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#moncompte {
+    margin-bottom: 30px;
+}
+
+
+#moncompte .profilcompte {
+    margin-top: 180px;
+}
+
+#moncompte .profilcompte input {
+    float: left;
+    display: inline;
+    width: 100%;
+}
+
+#moncompte .profilcompte label {
+    float: left;
+    display: inline;
+}
+
+#moncompte .profilcompte p {
+    float: right;
+    display: inline;
+    font-size: 1.6em;
+    margin-right : 5%;
+}
+
+#moncompte .bar {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+#moncompte .profilcompte2 h2{
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#moncompte .profilcompte2 form {
+    margin: 0px 25%;
+}
+
+#moncompte .profilcompte2 div {
+    margin-bottom: 30px;
+}
+#moncompte .profilcompte2 input {
+    border: solid #54B59A 2px ;
+    padding: 5px 15px;
+    float: right;
+    background-color: white;
+    border-radius: 2px;
+}
+
+#moncompte .profilcompte2 input:hover{
+    background-color: #54B59A ;
+    transition: 0.2s;
+}
+
