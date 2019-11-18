@@ -528,12 +528,15 @@ h5{
 .conformulaire input{
 	width: 45%;
 	padding: 12px 30px;
-	border-radius: 3px;
-  border: none;
-	background-color: #54b59a;
+	border-radius: 5px;
+	background-color: #fff;
 	margin-left: 2%;
 	margin-right: 2%;
-  height: 50px;
+    height: 50px;
+    border: 1px solid #54b59a;
+    opacity: 80%;
+    border-width: 1.5px;
+
 }
 
 .conformulaire #prenom {
@@ -554,16 +557,17 @@ h5{
 }
 
 .conformulaire textarea{
-	background-color: #54b59a;
-	width: 50%;
+	background-color: white;
   margin-left: 25px;
 	border-radius: 3px;
 	margin-top: 30px;
-  border: none;
   width: 80%;
   height: 200px;
   max-width: 96%;
   min-width: 96%;
+    border: 1px solid #54b59a;
+    opacity: 80%;
+    border-width: 1.5px;
 }
 
 .conformulaire #sujet {
@@ -824,11 +828,235 @@ h6 {
 
 #section2 a {
   float: right;
-  
+
 }
 
 
 
 
 
-/* FIN MES VACCINS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //ENFANT// */
+
+#mesenfants {
+  padding-top: 125px;
+}
+
+.titreenfant {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+#mesenfants p {
+  width: 50%;
+  font-size: 1.8em;
+  margin-top: 100px;
+  margin-left: 5%;
+  line-height: 44px;
+}
+
+#mesenfants img {
+  float: right;
+  margin-top: -300px;
+  margin-right: 5%;
+  width: 30%;
+  height: 30%;
+}
+
+.barre7 {
+  height: 5px;
+  width: 15%;
+  background-color: #54B59A;
+  border-radius: 10px;
+  margin-left: 42.5%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#moncompte {
+    margin-bottom: 30px;
+}
+
+
+#moncompte .profilcompte {
+    margin-top: 180px;
+}
+
+#moncompte .profilcompte input {
+    float: left;
+    display: inline;
+    width: 100%;
+}
+
+#moncompte .profilcompte label {
+    float: left;
+    display: inline;
+}
+
+#moncompte .profilcompte p {
+    float: right;
+    display: inline;
+    font-size: 1.6em;
+    margin-right : 5%;
+}
+
+#moncompte .bar {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+#moncompte .profilcompte2 h2{
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#moncompte .profilcompte2 form {
+    margin: 0px 25%;
+}
+
+#moncompte .profilcompte2 div {
+    margin-bottom: 30px;
+}
+#moncompte .profilcompte2 input {
+    border: solid #54B59A 2px ;
+    padding: 5px 15px;
+    float: right;
+    background-color: white;
+    border-radius: 2px;
+}
+
+#moncompte .profilcompte2 input:hover{
+    background-color: #54B59A ;
+    transition: 0.2s;
+}
