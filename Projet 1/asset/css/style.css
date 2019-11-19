@@ -219,11 +219,13 @@ footer .logofooter img {
   width: 120px;
   height: 120px;
   float: left;
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
 
 footer nav ul li  {
-  margin-top: 15px;
+  margin-top: 25px;
   margin-bottom: 25px;
 }
 
@@ -746,9 +748,18 @@ h6 {
 
 .list {
   float: left;
-  width: 25%;
   margin-top: 50px;
   font-size: 1.4em;
+  margin-left: 50px;
+}
+
+.list1 {
+  float: left;
+  margin-left: 10px;
+}
+
+.titre2 {
+  margin-top: 35px;
 }
 
 #section1 ul li {
@@ -756,11 +767,9 @@ h6 {
 }
 
 .img1 {
-  width: 500px;
   float: right;
-  margin-right: 100px;
-  margin-top: 35px;
-  margin-bottom: 35px;
+  width: 450px;
+  margin-right: 50px;
 }
 
 .tableau {
@@ -792,44 +801,49 @@ h6 {
   border-color: #54b59a;
 }
 
+.legend {
+  float: left;
+  margin-right: 25px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
 .img {
-  margin: 0 auto;
-  width: 20%;
-  margin-top: 15px;
+  margin-top: 25px;
   margin-bottom: 50px;
 }
 
-.img1 {
-  width: 50%;
-  display: inline-block;
-}
-
-.img1 p {
-  display: inline-block;
-}
-
-.img2 p {
-  display: inline-block;
+.description {
+  float: right;
+  margin-left: 10px;
 }
 
 .img2 {
-  width: 50%;
-}
-
-.imgrouge {
   float: left;
-  margin-right: 10px;
+  margin-left: 200px;
 }
 
 .imgbleue {
+  margin-left: 10px;
+}
+
+.img3 {
   float: left;
-  margin-right: 10px;
+  margin-left: 40px;
 }
 
 #section2 a {
   float: right;
-
+  margin-right: 200px;
+  margin-top: 15px;
 }
+
+
+
+
+
+
+
 
 
 
@@ -920,7 +934,7 @@ h6 {
 
 .titreenfant {
   text-align: center;
-  padding: 30px 0px;
+  margin-top: 30px;
 }
 
 #mesenfants p {
@@ -940,12 +954,11 @@ h6 {
 }
 
 .barre7 {
-  height: 5px;
-  width: 15%;
-  background-color: #54B59A;
-  border-radius: 10px;
-  margin-left: 42.5%;
-
+  width: 10%;
+	height: 3px;
+	background-color: #54b59a;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 
@@ -1000,11 +1013,13 @@ h6 {
 
 
 
+
+
+/* MON COMPTE */
 
 #moncompte {
-    margin-bottom: 30px;
+  margin-top: 155px;
 }
-
 
 #moncompte .profilcompte {
     margin-top: 180px;
@@ -1029,20 +1044,41 @@ h6 {
 }
 
 #moncompte .bar {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  width: 10%;
+  height: 3px;
+  background-color: #54b59a;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
 }
 
 
 #moncompte .profilcompte2 h2{
-    font-size: 2.5em;
-    text-align: center;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    font-size: 2em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 40%;
+}
+
+.nomprenom {
+  font-size: 1.5em;
+  margin-bottom: 100px;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+.nom1 {
+  float: right;
+  margin-right: 25px;
+}
+
+.prenom1 {
+  float: right;
 }
 
 #moncompte .profilcompte2 form {
-    margin: 0px 25%;
+    margin: 60px 25%;
+
 }
 
 #moncompte .profilcompte2 div {
